@@ -1,3 +1,3 @@
-fetch('book.json')
+fetch('.book.json')
   .then(res => res.json())
   .then(data => console.log(data));
